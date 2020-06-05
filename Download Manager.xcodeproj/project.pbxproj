@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C6DA17248A33F1009FEC21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA16248A33F1009FEC21 /* AppDelegate.swift */; };
+		20C6DA19248A33F1009FEC21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA18248A33F1009FEC21 /* SceneDelegate.swift */; };
+		20C6DA1B248A33F1009FEC21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA1A248A33F1009FEC21 /* ViewController.swift */; };
+		20C6DA1E248A33F1009FEC21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C6DA1C248A33F1009FEC21 /* Main.storyboard */; };
+		20C6DA20248A33F3009FEC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C6DA1F248A33F3009FEC21 /* Assets.xcassets */; };
+		20C6DA23248A33F3009FEC21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C6DA21248A33F3009FEC21 /* LaunchScreen.storyboard */; };
+		20C6DA2D248A3D65009FEC21 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA2B248A3D65009FEC21 /* BaseNavigationViewController.swift */; };
+		20C6DA2E248A3D65009FEC21 /* DownloadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA2C248A3D65009FEC21 /* DownloadFileManager.swift */; };
+		20C6DA4B248A8246009FEC21 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA33248A8245009FEC21 /* JTSImageInfo.m */; };
+		20C6DA4C248A8246009FEC21 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA34248A8245009FEC21 /* UIApplication+JTSImageViewController.m */; };
+		20C6DA4D248A8246009FEC21 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA38248A8245009FEC21 /* JTSAnimatedGIFUtility.m */; };
+		20C6DA4E248A8246009FEC21 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA3A248A8245009FEC21 /* UIImage+JTSImageEffects.m */; };
+		20C6DA4F248A8246009FEC21 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA3D248A8245009FEC21 /* JTSSimpleImageDownloader.m */; };
+		20C6DA50248A8246009FEC21 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA3E248A8245009FEC21 /* JTSImageViewController.m */; };
+		20C6DA51248A8246009FEC21 /* PDFPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA41248A8246009FEC21 /* PDFPageCollectionViewCell.swift */; };
+		20C6DA52248A8246009FEC21 /* TiledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA42248A8246009FEC21 /* TiledView.swift */; };
+		20C6DA53248A8246009FEC21 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA43248A8246009FEC21 /* PDFViewController.swift */; };
+		20C6DA54248A8246009FEC21 /* PDFPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA44248A8246009FEC21 /* PDFPageView.swift */; };
+		20C6DA55248A8246009FEC21 /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA45248A8246009FEC21 /* PDFDocument.swift */; };
+		20C6DA56248A8246009FEC21 /* PDFThumbnailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA46248A8246009FEC21 /* PDFThumbnailCollectionViewController.swift */; };
+		20C6DA57248A8246009FEC21 /* PDFThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C6DA47248A8246009FEC21 /* PDFThumbnailCell.swift */; };
+		20C6DA58248A8246009FEC21 /* PDFReader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C6DA49248A8246009FEC21 /* PDFReader.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20C6DA13248A33F1009FEC21 /* Download Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Download Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C6DA16248A33F1009FEC21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20C6DA18248A33F1009FEC21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20C6DA1A248A33F1009FEC21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20C6DA1D248A33F1009FEC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C6DA1F248A33F3009FEC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C6DA22248A33F3009FEC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C6DA24248A33F3009FEC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C6DA2B248A3D65009FEC21 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		20C6DA2C248A3D65009FEC21 /* DownloadFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadFileManager.swift; sourceTree = "<group>"; };
+		20C6DA33248A8245009FEC21 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
+		20C6DA34248A8245009FEC21 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		20C6DA35248A8245009FEC21 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		20C6DA36248A8245009FEC21 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
+		20C6DA37248A8245009FEC21 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		20C6DA38248A8245009FEC21 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		20C6DA39248A8245009FEC21 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
+		20C6DA3A248A8245009FEC21 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		20C6DA3B248A8245009FEC21 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		20C6DA3C248A8245009FEC21 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		20C6DA3D248A8245009FEC21 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		20C6DA3E248A8245009FEC21 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
+		20C6DA41248A8246009FEC21 /* PDFPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		20C6DA42248A8246009FEC21 /* TiledView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledView.swift; sourceTree = "<group>"; };
+		20C6DA43248A8246009FEC21 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		20C6DA44248A8246009FEC21 /* PDFPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageView.swift; sourceTree = "<group>"; };
+		20C6DA45248A8246009FEC21 /* PDFDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFDocument.swift; sourceTree = "<group>"; };
+		20C6DA46248A8246009FEC21 /* PDFThumbnailCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFThumbnailCollectionViewController.swift; sourceTree = "<group>"; };
+		20C6DA47248A8246009FEC21 /* PDFThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFThumbnailCell.swift; sourceTree = "<group>"; };
+		20C6DA49248A8246009FEC21 /* PDFReader.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PDFReader.storyboard; sourceTree = "<group>"; };
+		20C6DA59248A8285009FEC21 /* Download Manager-Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Download Manager-Bridging_Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C6DA10248A33F1009FEC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C6DA0A248A33F1009FEC21 = {
+			isa = PBXGroup;
+			children = (
+				20C6DA15248A33F1009FEC21 /* Download Manager */,
+				20C6DA14248A33F1009FEC21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C6DA14248A33F1009FEC21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C6DA13248A33F1009FEC21 /* Download Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C6DA15248A33F1009FEC21 /* Download Manager */ = {
+			isa = PBXGroup;
+			children = (
+				20C6DA2A248A3D65009FEC21 /* Helper */,
+				20C6DA16248A33F1009FEC21 /* AppDelegate.swift */,
+				20C6DA18248A33F1009FEC21 /* SceneDelegate.swift */,
+				20C6DA1A248A33F1009FEC21 /* ViewController.swift */,
+				20C6DA1C248A33F1009FEC21 /* Main.storyboard */,
+				20C6DA1F248A33F3009FEC21 /* Assets.xcassets */,
+				20C6DA21248A33F3009FEC21 /* LaunchScreen.storyboard */,
+				20C6DA24248A33F3009FEC21 /* Info.plist */,
+			);
+			path = "Download Manager";
+			sourceTree = "<group>";
+		};
+		20C6DA2A248A3D65009FEC21 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				20C6DA32248A8245009FEC21 /* ImageViewer */,
+				20C6DA3F248A8245009FEC21 /* PdfViewer */,
+				20C6DA2B248A3D65009FEC21 /* BaseNavigationViewController.swift */,
+				20C6DA59248A8285009FEC21 /* Download Manager-Bridging_Header.h */,
+				20C6DA2C248A3D65009FEC21 /* DownloadFileManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		20C6DA32248A8245009FEC21 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				20C6DA33248A8245009FEC21 /* JTSImageInfo.m */,
+				20C6DA34248A8245009FEC21 /* UIApplication+JTSImageViewController.m */,
+				20C6DA35248A8245009FEC21 /* UIImage+JTSImageEffects.h */,
+				20C6DA36248A8245009FEC21 /* JTSImageViewController.h */,
+				20C6DA37248A8245009FEC21 /* JTSSimpleImageDownloader.h */,
+				20C6DA38248A8245009FEC21 /* JTSAnimatedGIFUtility.m */,
+				20C6DA39248A8245009FEC21 /* JTSImageInfo.h */,
+				20C6DA3A248A8245009FEC21 /* UIImage+JTSImageEffects.m */,
+				20C6DA3B248A8245009FEC21 /* UIApplication+JTSImageViewController.h */,
+				20C6DA3C248A8245009FEC21 /* JTSAnimatedGIFUtility.h */,
+				20C6DA3D248A8245009FEC21 /* JTSSimpleImageDownloader.m */,
+				20C6DA3E248A8245009FEC21 /* JTSImageViewController.m */,
+			);
+			path = ImageViewer;
+			sourceTree = "<group>";
+		};
+		20C6DA3F248A8245009FEC21 /* PdfViewer */ = {
+			isa = PBXGroup;
+			children = (
+				20C6DA40248A8245009FEC21 /* Classes */,
+				20C6DA48248A8246009FEC21 /* Assets */,
+			);
+			path = PdfViewer;
+			sourceTree = "<group>";
+		};
+		20C6DA40248A8245009FEC21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20C6DA41248A8246009FEC21 /* PDFPageCollectionViewCell.swift */,
+				20C6DA42248A8246009FEC21 /* TiledView.swift */,
+				20C6DA43248A8246009FEC21 /* PDFViewController.swift */,
+				20C6DA44248A8246009FEC21 /* PDFPageView.swift */,
+				20C6DA45248A8246009FEC21 /* PDFDocument.swift */,
+				20C6DA46248A8246009FEC21 /* PDFThumbnailCollectionViewController.swift */,
+				20C6DA47248A8246009FEC21 /* PDFThumbnailCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		20C6DA48248A8246009FEC21 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				20C6DA49248A8246009FEC21 /* PDFReader.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C6DA12248A33F1009FEC21 /* Download Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C6DA27248A33F3009FEC21 /* Build configuration list for PBXNativeTarget "Download Manager" */;
+			buildPhases = (
+				20C6DA0F248A33F1009FEC21 /* Sources */,
+				20C6DA10248A33F1009FEC21 /* Frameworks */,
+				20C6DA11248A33F1009FEC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Download Manager";
+			productName = "Download Manager";
+			productReference = 20C6DA13248A33F1009FEC21 /* Download Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C6DA0B248A33F1009FEC21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Niki;
+				TargetAttributes = {
+					20C6DA12248A33F1009FEC21 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 20C6DA0E248A33F1009FEC21 /* Build configuration list for PBXProject "Download Manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C6DA0A248A33F1009FEC21;
+			productRefGroup = 20C6DA14248A33F1009FEC21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C6DA12248A33F1009FEC21 /* Download Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C6DA11248A33F1009FEC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6DA58248A8246009FEC21 /* PDFReader.storyboard in Resources */,
+				20C6DA23248A33F3009FEC21 /* LaunchScreen.storyboard in Resources */,
+				20C6DA20248A33F3009FEC21 /* Assets.xcassets in Resources */,
+				20C6DA1E248A33F1009FEC21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C6DA0F248A33F1009FEC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6DA1B248A33F1009FEC21 /* ViewController.swift in Sources */,
+				20C6DA4C248A8246009FEC21 /* UIApplication+JTSImageViewController.m in Sources */,
+				20C6DA51248A8246009FEC21 /* PDFPageCollectionViewCell.swift in Sources */,
+				20C6DA4F248A8246009FEC21 /* JTSSimpleImageDownloader.m in Sources */,
+				20C6DA4E248A8246009FEC21 /* UIImage+JTSImageEffects.m in Sources */,
+				20C6DA4D248A8246009FEC21 /* JTSAnimatedGIFUtility.m in Sources */,
+				20C6DA56248A8246009FEC21 /* PDFThumbnailCollectionViewController.swift in Sources */,
+				20C6DA57248A8246009FEC21 /* PDFThumbnailCell.swift in Sources */,
+				20C6DA52248A8246009FEC21 /* TiledView.swift in Sources */,
+				20C6DA55248A8246009FEC21 /* PDFDocument.swift in Sources */,
+				20C6DA50248A8246009FEC21 /* JTSImageViewController.m in Sources */,
+				20C6DA4B248A8246009FEC21 /* JTSImageInfo.m in Sources */,
+				20C6DA17248A33F1009FEC21 /* AppDelegate.swift in Sources */,
+				20C6DA54248A8246009FEC21 /* PDFPageView.swift in Sources */,
+				20C6DA53248A8246009FEC21 /* PDFViewController.swift in Sources */,
+				20C6DA19248A33F1009FEC21 /* SceneDelegate.swift in Sources */,
+				20C6DA2E248A3D65009FEC21 /* DownloadFileManager.swift in Sources */,
+				20C6DA2D248A3D65009FEC21 /* BaseNavigationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20C6DA1C248A33F1009FEC21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C6DA1D248A33F1009FEC21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C6DA21248A33F3009FEC21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C6DA22248A33F3009FEC21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C6DA25248A33F3009FEC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20C6DA26248A33F3009FEC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C6DA28248A33F3009FEC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5TNZEA99S;
+				INFOPLIST_FILE = "Download Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.downloader1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Download Manager/Helper/Download Manager-Bridging_Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20C6DA29248A33F3009FEC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5TNZEA99S;
+				INFOPLIST_FILE = "Download Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.downloader1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Download Manager/Helper/Download Manager-Bridging_Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C6DA0E248A33F1009FEC21 /* Build configuration list for PBXProject "Download Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6DA25248A33F3009FEC21 /* Debug */,
+				20C6DA26248A33F3009FEC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C6DA27248A33F3009FEC21 /* Build configuration list for PBXNativeTarget "Download Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6DA28248A33F3009FEC21 /* Debug */,
+				20C6DA29248A33F3009FEC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C6DA0B248A33F1009FEC21 /* Project object */;
+}
